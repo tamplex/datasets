@@ -1,6 +1,6 @@
-# Complexio Datasets
+# Synthetic Datasets
 
-Training and test data for Complexio's machine learning systems. This repository is separate from the main codebase to facilitate data versioning, reduce repository size, and enable controlled access to training data that should not be distributed to customers.
+Training and test data for machine learning systems. This repository is separate from the main codebase to facilitate data versioning, reduce repository size, and enable controlled access to training data that should not be distributed to customers.
 
 ## Structure
 
@@ -30,7 +30,6 @@ trainer = BayesianTrainer()
 # Load messages from this repository's structure
 ```
 
-## Related Repositories
+## Related Code
 
-- **complexio/complexio** - Main Complexio codebase including classifiers, trainers, and applications
-- Communication classifier: `lib/core/src/core/communication_classifier/`
+- Communication classifier in our main repo: `lib/communication_classifier/src/communication_classifier/`
